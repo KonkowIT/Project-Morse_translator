@@ -6,12 +6,11 @@ public class LaunchTranslator {
     public static void main(String[] args) {
         AlphabetToMorse alphabetToMorse = new AlphabetToMorse();
         AlphabetToLetters alphabetToLetters = new AlphabetToLetters();
-        String typedIn;
 
         System.out.println("Type in what You want to translate:");
         System.out.println("(Remember: after letter use space, after word use '|')");
         Scanner type = new Scanner(System.in);
-        typedIn = type.nextLine();
+        String typedIn = type.nextLine();
 
         char[] typedLetters = typedIn.toLowerCase().toCharArray();
 
