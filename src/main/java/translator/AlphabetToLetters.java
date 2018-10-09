@@ -6,9 +6,10 @@ import java.util.Objects;
 
 public class AlphabetToLetters {
     private Map<String, Character> alphabet = new HashMap<>();
-    char space = Character.MIN_VALUE;
 
     AlphabetToLetters() {
+        char space = Character.MIN_VALUE;
+
         alphabet.put(".-", 'a');
         alphabet.put("-...", 'b');
         alphabet.put("-.-.", 'c');
