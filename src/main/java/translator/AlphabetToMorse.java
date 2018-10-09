@@ -3,11 +3,11 @@ package translator;
 import java.util.HashMap;
 import java.util.Map;
 
-class Alphabet {
+class AlphabetToMorse {
     private Map<Character, String> alphabet = new HashMap<>();
 
-    Alphabet() {
-        alphabet.put(' ', " ");
+    AlphabetToMorse() {
+        alphabet.put(' ', "|");
         alphabet.put('a', ".-");
         alphabet.put('b', "-...");
         alphabet.put('c', "-.-.");
@@ -37,7 +37,7 @@ class Alphabet {
         alphabet.put('1', ".----");
         alphabet.put('2', "..--");
         alphabet.put('3', "...--");
-        alphabet.put('4', "...-");
+        alphabet.put('4', "....-");
         alphabet.put('5', ".....");
         alphabet.put('6', "-....");
         alphabet.put('7', "--...");
